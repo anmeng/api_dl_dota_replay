@@ -11,6 +11,7 @@ import javax.ws.rs.client.WebTarget;
 import org.jp.reima.dl_dota_replay.domain.dota.replay.exception.NotReadyGenerateUrlException;
 import org.jp.reima.dl_dota_replay.domain.dota.replay.exception.RestReturnsIsNotExpectedException;
 import org.jp.reima.dl_dota_replay.domain.dota.replay.resource.Replay;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.fasterxml.jackson.core.JsonParseException;
@@ -40,6 +41,7 @@ public class DownloadDotaReplayServiceImpl implements DownloadDotaReplayService 
     }
     
     private String callRestService(String matchId) {
+        
         WebTarget target = client.target("https://api.opendota.com/api/replays")
                 .queryParam("match_id", matchId);
         String json = null;

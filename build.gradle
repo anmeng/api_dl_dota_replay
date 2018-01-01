@@ -33,9 +33,10 @@ dependencies {
 	
 	// RestClient
     compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.+'
-	
+
 	// json parser
-	compile 'com.fasterxml.jackson.core:jackson-databind:2.3.4'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.7.4'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.7.4'
 	
 	// lombok
     compile 'org.projectlombok:lombok:1.16.18'
