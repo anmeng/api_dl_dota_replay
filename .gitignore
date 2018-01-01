@@ -20,3 +20,19 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.classpath
+.gradle/3.5.1/file-changes/last-build.bin
+.gradle/3.5.1/file-changes/last-build.bin.cpgz
+.gradle/3.5.1/taskHistory/taskHistory.lock
+.gradle/buildOutputCleanup/built.bin
+.gradle/buildOutputCleanup/built.bin.cpgz
+.gradle/buildOutputCleanup/cache.properties
+.gradle/buildOutputCleanup/cache.properties.lock
+.project
+.settings/org.eclipse.buildship.core.prefs
+bin/application.properties
+bin/org/jp/reima/dl_dota_replay/api/.gitkeep
+bin/org/jp/reima/dl_dota_replay/controller/.gitkeep
+bin/org/jp/reima/dl_dota_replay/domain/repository/.gitkeep
+bin/org/jp/reima/dl_dota_replay/domain/resource/.gitkeep
+bin/org/jp/reima/dl_dota_replay/infra/repository/.gitkeep
