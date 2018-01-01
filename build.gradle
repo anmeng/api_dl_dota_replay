@@ -22,12 +22,20 @@ repositories {
 	mavenCentral()
 }
 
+configurations {
+     all*.exclude module: 'servlet-api'
+}
+
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-web')
-	runtime('com.h2database:h2')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	
+	// RestClient
+    compile 'org.glassfish.jersey.containers:jersey-container-servlet:2.+'
+	
+	// json parser
+	compile 'com.fasterxml.jackson.core:jackson-databind:2.3.4'
 	
 	// lombok
     compile 'org.projectlombok:lombok:1.16.18'

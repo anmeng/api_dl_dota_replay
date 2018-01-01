@@ -36,3 +36,10 @@ bin/org/jp/reima/dl_dota_replay/controller/.gitkeep
 bin/org/jp/reima/dl_dota_replay/domain/repository/.gitkeep
 bin/org/jp/reima/dl_dota_replay/domain/resource/.gitkeep
 bin/org/jp/reima/dl_dota_replay/infra/repository/.gitkeep
+.gradle/3.5.1/fileContent/annotation-processors.bin
+.gradle/3.5.1/fileContent/fileContent.lock
+.gradle/3.5.1/taskHistory/fileHashes.bin
+.gradle/3.5.1/taskHistory/fileSnapshots.bin
+.gradle/3.5.1/taskHistory/jvmClassSignatures.bin
+.gradle/3.5.1/taskHistory/taskHistory.bin
+bin/application.yml
